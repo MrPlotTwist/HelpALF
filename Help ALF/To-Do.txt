@@ -1,0 +1,5 @@
+"" => "Spaceship lost forever."
+"2" => "Spaceship lost forever."
+"2,4" => "Spaceship lost forever."
+"abc,def" => "Spaceship lost forever."
+"7,2"  => "Spaceship found!"
