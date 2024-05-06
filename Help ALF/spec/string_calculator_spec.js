@@ -1,4 +1,4 @@
-describe('String Calculator', function() {
+describe('Help ALF', function() {
 	beforeEach(function() {
 		calculator = new HelpALF();
 	});
@@ -7,7 +7,9 @@ describe('String Calculator', function() {
 		expect(calculator.add('')).toEqual("Spaceship lost forever.");
 	});
 
-
+	it('should return Spaceship found! for 7,2 string', function() {
+		expect(calculator.add('7,2')).toEqual('Spaceship found!');
+	});
 
 	
 });
